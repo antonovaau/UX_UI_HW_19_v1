@@ -114,10 +114,14 @@
 }
 .nav-list .list-item{
     display: block;
+    font-style: normal;
+    font-family: 'Hind', sans-serif;
+    font-weight: 500;
     border-top: 1px solid darkgray;
     background-color: rgba(250, 241, 235, 0.89);
 
 }
+
 .nav-list {
     display: none;
     list-style-type: none;
@@ -127,6 +131,10 @@
 }
 .active {
     display: block;
+    font-style: normal;
+    font-family: 'Hind', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 }
@@ -768,7 +776,7 @@ padding: 5% 5%;
     bottom: 16px;
     right: 25px;
     height: 45px;
-    width: 45px;
+    width: 4px;
     border-radius: 5px;
 
 }
