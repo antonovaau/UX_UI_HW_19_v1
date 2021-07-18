@@ -4,10 +4,10 @@
     margin: 0;
 }
 .body {
-
     font-style: normal;
     font-family: 'Hind', sans-serif;
-    background: white;
+    font-weight: 600;
+     background: white;
     color: black;
 }
 
@@ -779,9 +779,9 @@ padding: 5% 5%;
     transition: .5s;
     position: fixed;
     bottom: 16px;
-    right: 25px;
+    right: 20px;
     height: 45px;
-    width: 4px;
+    width: 45px;
     border-radius: 5px;
 
 }
