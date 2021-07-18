@@ -775,7 +775,7 @@ padding: 5% 5%;
     text-decoration: none;
     opacity: 0;
     pointer-events: none;
-    transition: .5s;
+    transition: .8s;
     position: fixed;
     bottom: 16px;
     right: 20px;
