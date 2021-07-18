@@ -1,0 +1,776 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.body {
+
+    background: white;
+    color: black;
+}
+
+.h1 {
+    font-style: normal;
+    font-family: 'Hind_Vadodara', sans-serif;
+    font-weight: 600;
+    margin: 3%;
+
+}
+.h3 {
+    font-style: normal;
+    font-family: 'Hind', sans-serif;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+.p {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Hind', sans-serif;
+    margin-bottom: 1%;
+
+}
+
+/* navbar section styling starts*/
+
+.navbar{
+    color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "hind";
+    width: 100%;
+    
+}
+
+.primary-icon {
+    height: 80px;
+   
+}
+
+.container-icon{
+    margin: 0% 0% 0% 2%;
+}
+
+.nav-list{
+    display: flex;
+    list-style-type: none;
+
+}
+
+.nav-list .list-item {
+
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: rgb(206, 166, 152);
+}
+
+.menu {
+    display: none;
+
+}
+.menu-line{
+    width: 40px;
+    height: 6px;
+    background-color: black;
+    margin-bottom: 8px;
+    border-radius: 20px;
+
+}
+
+@media only screen and (max-width: 600px) {
+.navbar {
+    flex-direction: column;
+    position: relative;
+}
+
+.menu {
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 40px;
+}
+
+.navbar .container-icon{
+    width: 100%;
+}
+
+.primary-icon {
+    height: 70px;
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+.nav-list .list-item{
+    display: block;
+    border-top: 1px solid darkgray;
+    background-color: rgba(250, 241, 235, 0.89);
+
+}
+.nav-list {
+    display: none;
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+   
+}
+.active {
+    display: block;
+}
+
+}
+
+/*navbar section styling ends*/
+
+
+/*hero section styling starts*/
+
+#hero-section {
+    background-position: center;
+    background-color: rgba(233, 232, 232, 0.493);
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+  }
+  
+  .herogrid {
+    display: grid;
+    width: 100%;
+    width: 100%;
+    overflow: auto;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+    "heroimage herocontent";
+
+  }
+  
+  
+#herocontent h1 {
+    font-style: normal;
+    font-family: 'Hind_Vadodara', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 2%;
+
+  }
+
+#herocontent p {
+    font-family: 'Hind', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+   
+  }
+
+#herocontent h2 {
+    font-style: normal;
+    font-family: 'Caveat';
+    font-weight: 600;
+    font-size: 35px;
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+
+.hero-section-img {
+    padding: 10%;
+    margin: 0% 0% 0% 0%;
+  }
+
+ 
+.IAphoto{
+    width:100%;
+}
+  
+  #heroimage {
+    display: block;
+    padding: 1%;
+    grid-area: heroimage;
+  }
+
+  #herocontent {
+    padding-top: 15%;
+    padding-left: 5%;
+    padding-bottom: 10%;
+    grid-area: herocontent;
+
+  }
+
+.hero-section-content button{
+    border: none;
+    outline-style: none;
+    font-family: 'Hind', sans-serif;
+    padding: 10px 30px;
+    background: rgb(250, 233, 221);
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    font-size: 18px;
+    color: rgb(34, 37, 37);
+    cursor: pointer;
+     
+}
+
+.hero-section-content button:hover {
+    color: black;
+    font-weight: bold;
+    font-family: 'Hind', sans-serif;
+    font-size: 20px;
+    background: rgb(239, 212, 203);
+}
+
+/*hero section styling ends*/
+
+
+/*My skills section styling starts*/
+
+.my-skills {
+    display: flex;
+    flex-direction: row; 
+    font-weight: 400;
+    font-family: 'Hind', sans-serif;
+    text-align: center;
+    list-style-type: none;
+    margin-top: 1%;
+}
+
+.skills-section h1 {
+
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'Hind Vadodara',sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.my-skills h3{
+    margin-bottom: 5%;
+    margin-top: 3%;
+    font-size: 24px;
+}
+
+.skills-container-1{
+    width: 33%;
+    padding-left: 5%;
+}
+.my-skills li{
+    padding: 1%;
+    font-size: 20px;
+}
+
+.skills-container-2{
+    width: 33%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.skills-container-3{
+    width: 33%;
+    padding-right: 5%;
+}
+
+/*My skills section styling ends*/
+
+
+/*My Tools section styling starts*/
+
+.tools-section h1{
+
+    padding-top: 1%;
+    text-align: center;
+    font-family: 'Hind Vadodara',sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.tools-logo{
+    height: 60px;
+    width: 60px;
+    color: white;
+}
+
+.tools-section h1{
+    margin-top: 3%;
+}
+
+.my-tools{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 2%;
+}
+
+.tool-card{
+    width: 25%;
+    padding: 3% 3% 3% 3%;
+
+}
+
+.resume{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+  
+}
+
+.resume .btn{
+    border: none;
+    outline-style: none;
+    font-family: 'Hind', sans-serif;
+    padding: 10px 30px;
+    background: rgb(250, 233, 221);
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    font-size: 18px;
+    color: rgb(34, 37, 37);
+    cursor: pointer;
+}
+
+.resume .btn:hover{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    background: rgb(245, 242, 241);
+}
+
+/*My tools section styling ends*/
+
+
+/*My Work section styling starts*/
+
+.project-list-grid {
+    font-family: "hind";
+    display: grid;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+        "save-a-dog-img save-a-dog-content"
+        "abc-content abc-img"
+        "plant-pal-img plant-pal-content";
+    }
+
+.project-list-grid h3 {
+    font-style: normal;
+    font-family: 'Hind', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 1%;
+  
+}
+
+.project-list-grid p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Hind', sans-serif;
+    margin-bottom: 4%;
+
+}
+
+.my-work h1 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-family: 'Hind Vadodara',sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+
+.save-a-dog-img {
+grid-area: save-a-dog-img;
+display: block;
+display: flex;
+padding-left: 10%;
+padding-bottom: 1%;
+padding-right: 1%;
+padding-top: 1%;
+}
+
+.save-a-dog-content{
+    padding: 5% 5%; 
+}
+
+
+.abc-img{
+    grid-area: abc-img;
+    display: block;
+    display: flex;
+    padding-left: 10%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+}
+
+.abc-content{
+    padding: 10% 5%; 
+    
+}
+
+.plant-pal-img {
+    grid-area: plant-pal-img;
+    display: block;
+    display: flex;
+    padding-left: 10%;
+    padding-bottom: 10%;
+    padding-right: 1%;
+    padding-top: 1%;
+}
+
+.plant-pal-content{
+    padding: 1% 5%; 
+}
+
+.save-a-dog-content .btn{
+    border: none;
+    outline-style: none;
+    font-family: 'Hind', sans-serif;
+    padding: 10px 30px;
+    background: rgb(250, 233, 221);
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    font-size: 18px;
+    color: rgb(34, 37, 37);
+    cursor: pointer;
+}
+
+.save-a-dog-content .btn:hover{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    background: rgb(239, 212, 203);
+}
+
+.abc-content .btn {
+    border: none;
+    outline-style: none;
+    font-family: 'Hind', sans-serif;
+    padding: 10px 30px;
+    background: rgb(250, 233, 221);
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    font-size: 18px;
+    color: rgb(34, 37, 37);
+    cursor: pointer;
+}
+
+.abc-content .btn:hover {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    background: rgb(239, 212, 203);
+}
+
+.plant-pal-content .btn{
+    border: none;
+    outline-style: none;
+    font-family: 'Hind', sans-serif;
+    padding: 10px 30px;
+    background: rgb(250, 233, 221);
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    font-size: 18px;
+    color: rgb(34, 37, 37);
+    cursor: pointer;
+}
+
+.plant-pal-content .btn:hover {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    background: rgb(239, 212, 203);
+}
+
+.scrollUp {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: #fff;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: .5s;
+    background: rgba(250, 233, 221, 0.397);
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    height: 60px;
+    width:60px;
+    border-radius: 5px;
+
+}
+
+.scrollUp.active{
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+    transform: translateY(-80px);
+}
+
+/*My Work section styling ends*/
+
+
+/*Footer section styling starts*/
+
+.containerGrid {
+    display: grid;
+    background-color: black;
+    color:white;
+    padding-top: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.1fr;
+    grid-template-areas: 
+        "spacerA leftSidebar rightContent spacerB"
+        "copyright copyright copyright copyright";
+}
+
+.containerGrid h1 {
+    font-style: normal;
+    font-family: 'Hind_Vadodara', sans-serif;
+    font-variant-caps: all-petite-caps;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    padding-bottom: 3%;
+
+}
+
+.containerGrid a{
+    margin-top: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.leftSidebar a{
+    font-style: normal;
+    font-family: 'Hind', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.leftSidebar p{
+    font-style: normal;
+    font-family: 'Hind', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.copyright {
+    grid-area: copyright;
+    padding-top: 30px;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 1%;
+    font-style: normal;
+    font-family: 'Hind', sans-serif;
+}
+
+.leftSidebar {
+    grid-area: leftSidebar;
+}
+
+
+.rightContent {
+    grid-area: rightContent;
+}
+
+
+.social-icons{
+    height: 50px;
+    width: 50px;
+    color: white;
+}
+
+
+/*Footer section styling ends*/
+
+
+
+@media only screen and (max-width: 600px){
+
+#hero-section{
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+    
+}
+      
+.herogrid{ 
+    width: 100%;
+    padding-bottom: 5%;
+    padding: 0px;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "heroimage"
+        "herocontent";
+}
+
+.hero-section-img {
+ 
+    margin: 0% 0% 0% 0%;
+}
+
+#herocontent {
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 2%;
+    padding-bottom: 10%;
+    grid-area: herocontent;
+}
+
+.my-skills {
+    flex-direction: column;
+    justify-content: center;
+
+}
+.skills-container-1 {
+    width: 100%;
+    padding: 0% 3% 0% 3%;
+
+}
+.skills-container-2 {
+    width: 100%;
+    padding: 0% 3% 0% 3%;
+
+}
+.skills-container-3 {
+    width: 100%;
+    padding: 0% 3% 0% 3%;
+}
+
+.my-skills li{
+    padding: 1%;
+    font-size: 16px;
+}
+
+.my-skills .h1{
+    margin-top: 10%;
+}
+
+.my-tools{
+    display: none;
+}
+
+.tools-section h1 {
+    display: none;
+}
+
+.resume {
+     padding:10%;
+}
+    
+.project-list-grid{
+    flex-direction: column;
+    justify-content:center;
+    margin-bottom: 10%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-areas: 
+        "save-a-dog-img" 
+        "save-a-dog-content"
+        "abc-img"
+        "abc-content" 
+        "plant-pal-img"
+        "plant-pal-content";
+}
+
+.plant-pal-img{
+    grid-area: plant-pal-img;
+    display: flex;  
+   padding: 10% 3% 5% 3%;
+}
+    
+    
+.plant-pal-content {
+padding: 5% 5%;
+  
+}
+    
+.save-a-dog-img {
+    grid-area: save-a-dog-img;
+    display: flex;
+    padding: 10% 3% 5% 3%;
+}
+
+.save-a-dog-content {
+    padding: 5% 5%;
+}
+
+.abc-img {
+    grid-area: abc-img;
+    display: flex;
+    padding: 10% 3% 5% 3%;
+
+}
+.abc-content {
+    padding: 5% 5%;
+}
+.containerGrid {
+    flex-direction: column;
+    text-align: center;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+        "leftSidebar"
+        "rightContent"
+        "copyright";
+}
+
+.containerGrid h1{
+    text-align: center;
+}
+
+.scrollUp {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: .5s;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+
+}
+
+}
