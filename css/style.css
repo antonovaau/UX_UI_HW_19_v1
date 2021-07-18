@@ -5,6 +5,8 @@
 }
 .body {
 
+    font-style: normal;
+    font-family: 'Hind', sans-serif;
     background: white;
     color: black;
 }
@@ -63,6 +65,9 @@
 
 .nav-list .list-item {
 
+    font-style: normal;
+    font-family: 'Hind', sans-serif;
+    font-weight: 500;
     display: inline-block;
     padding: 20px 20px;
 }
