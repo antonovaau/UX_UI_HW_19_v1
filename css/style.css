@@ -754,7 +754,7 @@ padding-top: 5%;
     
     
 .plant-pal-content {
-padding: 5% 5%;
+    padding: 5% 5%;
   
 }
     
@@ -772,8 +772,8 @@ padding: 5% 5%;
     grid-area: abc-img;
     display: flex;
     padding: 10% 5% 5% 5%;
-
 }
+
 .abc-content {
     padding: 5% 5%;
 }
